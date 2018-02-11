@@ -70,7 +70,7 @@ apt-get upgrade -y >> ./install_log
 #--------------------------------------------------
 # Add official repository
 cat <<EOF > /etc/apt/sources.list.d/pgdg.list
-deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main
+deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main
 EOF
 
 echo -e "\n---- Install PostgreSQL Repo Key ----"
